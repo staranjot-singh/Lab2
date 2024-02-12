@@ -5,3 +5,9 @@ def print_args():
     arguments = sys.argv[1:]
     print("Script:", script_name)
     print("Arguments:",arguments)
+
+def helloWorld():
+    print('Hello World')
+
+helloWorld()
+  
